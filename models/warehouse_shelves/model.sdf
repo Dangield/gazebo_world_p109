@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="warehouse_shelves">
+    <static>true</static>
+    <link name="warehouse_shelves">
+      <collision name="warehouse_shelves">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://warehouse_shelves/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="warehouse_shelves">
+      <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+          <uri>model://warehouse_shelves/meshes/model.dae</uri>
+        </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

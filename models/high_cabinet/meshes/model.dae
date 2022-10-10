@@ -21,6 +21,9 @@
             <diffuse>
               <color sid="diffuse">0.517333 0.517333 0.517333 1</color>
             </diffuse>
+            <ambient>
+              <color sid="ambient">0.517333 0.517333 0.517333 1</color>
+            </ambient>
             <reflectivity>
               <float sid="specular">0.5</float>
             </reflectivity>
@@ -38,6 +41,9 @@
             <diffuse>
               <color sid="diffuse">0.1733549 0.1733549 0.1733549 1</color>
             </diffuse>
+            <ambient>
+              <color sid="ambient">0.1733549 0.1733549 0.1733549 1</color>
+            </ambient>
             <reflectivity>
               <float sid="specular">0.5</float>
             </reflectivity>

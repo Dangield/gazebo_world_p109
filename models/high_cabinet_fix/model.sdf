@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="high_cabinet_fix">
+    <static>true</static>
+    <link name="high_cabinet_fix">
+      <collision name="high_cabinet_fix">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://high_cabinet_fix/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="high_cabinet_fix">
+      <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+          <uri>model://high_cabinet_fix/meshes/model.dae</uri>
+        </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

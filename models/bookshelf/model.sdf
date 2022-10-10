@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="bookshelf">
+    <static>true</static>
+    <link name="bookshelf">
+      <collision name="bookshelf">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://bookshelf/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="bookshelf">
+      <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+          <uri>model://bookshelf/meshes/model.dae</uri>
+        </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

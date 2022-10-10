@@ -84,16 +84,410 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
+    <model name='warehouse_shelves'>
+      <static>1</static>
+      <link name='warehouse_shelves'>
+        <collision name='warehouse_shelves'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://warehouse_shelves/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='warehouse_shelves'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://warehouse_shelves/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.698169 -0.134928 0 0 -0 0</pose>
+    </model>
+    <model name='velma_alcove'>
+      <static>1</static>
+      <link name='velma_alcove'>
+        <collision name='velma_alcove'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://velma_alcove/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='velma_alcove'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://velma_alcove/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.569814 -1.73722 0 0 -0 0</pose>
+    </model>
+    <model name='table_4'>
+      <static>1</static>
+      <link name='table_4'>
+        <collision name='table_4'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_4/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='table_4'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://table_4/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>2.18439 -0.707411 0 0 -0 0</pose>
+    </model>
+    <model name='table_3'>
+      <static>1</static>
+      <link name='table_3'>
+        <collision name='table_3'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_3/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='table_3'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://table_3/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>1.87653 -2.1876 0 0 -0 0</pose>
+    </model>
+    <model name='table_2'>
+      <static>1</static>
+      <link name='table_2'>
+        <collision name='table_2'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_2/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='table_2'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://table_2/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.458218 -2.71086 0 0 -0 0</pose>
+    </model>
+    <model name='table_1'>
+      <static>1</static>
+      <link name='table_1'>
+        <collision name='table_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://table_1/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='table_1'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://table_1/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>2.39631 1.26042 0 0 -0 0</pose>
+    </model>
+    <model name='short_cabinet'>
+      <static>1</static>
+      <link name='short_cabinet'>
+        <collision name='short_cabinet'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://short_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='short_cabinet'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://short_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>3.60762 -0.369512 0 0 -0 0</pose>
+    </model>
+    <model name='p109'>
+      <static>1</static>
+      <link name='p109'>
+        <collision name='p109'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://p109/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='p109'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://p109/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-2.29622 -3.99285 0 0 -0 0</pose>
+    </model>
     <state world_name='default'>
-      <sim_time>84 771000000</sim_time>
-      <real_time>43 107486427</real_time>
-      <wall_time>1665411477 36594661</wall_time>
-      <iterations>42817</iterations>
+      <sim_time>245 141000000</sim_time>
+      <real_time>110 911234911</real_time>
+      <wall_time>1665420237 241940719</wall_time>
+      <iterations>108868</iterations>
+      <model name='bookshelf'>
+        <pose frame=''>2.68489 3.6772 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='bookshelf'>
+          <pose frame=''>2.68489 3.6772 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='p109'>
+        <pose frame=''>-2.29622 -3.99285 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='p109'>
+          <pose frame=''>-2.29622 -3.99285 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='short_cabinet'>
+        <pose frame=''>3.60762 -0.369512 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='short_cabinet'>
+          <pose frame=''>3.60762 -0.369512 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='table_1'>
+        <pose frame=''>2.39631 1.26042 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='table_1'>
+          <pose frame=''>2.39631 1.26042 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='table_2'>
+        <pose frame=''>0.458218 -2.71086 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='table_2'>
+          <pose frame=''>0.458218 -2.71086 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='table_3'>
+        <pose frame=''>1.87653 -2.1876 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='table_3'>
+          <pose frame=''>1.87653 -2.1876 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='table_4'>
+        <pose frame=''>2.18439 -0.707411 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='table_4'>
+          <pose frame=''>2.18439 -0.707411 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='velma_alcove'>
+        <pose frame=''>0.569814 -1.73722 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='velma_alcove'>
+          <pose frame=''>0.569814 -1.73722 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='warehouse_shelves'>
+        <pose frame=''>0.698169 -0.134928 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='warehouse_shelves'>
+          <pose frame=''>0.698169 -0.134928 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -105,10 +499,48 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>0.803009 -6.59102 1.96225 -0 0.275643 1.36419</pose>
+        <pose frame=''>13.7665 -4.73448 8.78144 0 0.643643 2.72819</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <model name='bookshelf'>
+      <static>1</static>
+      <link name='bookshelf'>
+        <collision name='bookshelf'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='bookshelf'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://bookshelf/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>2.68489 3.6772 0 0 -0 0</pose>
+    </model>
   </world>
 </sdf>

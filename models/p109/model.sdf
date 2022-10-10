@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="p109">
+    <static>true</static>
+    <link name="p109">
+      <collision name="p109">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://p109/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="p109">
+      <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+          <uri>model://p109/meshes/model.dae</uri>
+        </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

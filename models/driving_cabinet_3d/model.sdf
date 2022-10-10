@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="driving_cabinet_3d">
+    <static>true</static>
+    <link name="driving_cabinet_3d">
+      <collision name="driving_cabinet_3d">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://driving_cabinet_3d/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="driving_cabinet_3d">
+      <cast_shadows>true</cast_shadows>
+        <geometry>
+          <mesh>
+          <uri>model://driving_cabinet_3d/meshes/model.dae</uri>
+        </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
