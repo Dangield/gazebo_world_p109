@@ -1,3 +1,0 @@
-[submodule "models/tiago_sim_integration"]
-	path = models/tiago_sim_integration
-	url = https://github.com/RCPRG-ros-pkg/tiago_sim_integration
