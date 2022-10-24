@@ -121,10 +121,10 @@
       <pose frame=''>-2.29622 -3.99285 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1853 427000000</sim_time>
-      <real_time>93 98409875</real_time>
-      <wall_time>1666606606 257123343</wall_time>
-      <iterations>92652</iterations>
+      <sim_time>2775 892000000</sim_time>
+      <real_time>932 204451029</real_time>
+      <wall_time>1666614433 811589401</wall_time>
+      <iterations>922465</iterations>
       <model name='2d_cabinet'>
         <pose frame=''>7.49743 8.58116 0 0 0 -1.57</pose>
         <scale>1 1 1</scale>
@@ -305,6 +305,66 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='pc_station'>
+        <pose frame=''>5.47999 5.9023 0.75 0 0 -1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>5.47999 5.9023 0.75 0 0 -1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='pc_station_clone'>
+        <pose frame=''>5.46972 6.54051 0.75 0 -0 1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>5.46972 6.54051 0.75 0 -0 1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='pc_station_clone_clone'>
+        <pose frame=''>3.42431 3.80543 0.75 0 -0 1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>3.42431 3.80543 0.75 0 -0 1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='pc_station_clone_clone_0'>
+        <pose frame=''>3.94534 0.348295 0.75 0 -0 1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>3.94534 0.348295 0.75 0 -0 1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='pc_station_clone_clone_1'>
+        <pose frame=''>0.77767 0.31381 0.75 0 -0 1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>0.77767 0.31381 0.75 0 -0 1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='pc_station_clone_clone_2'>
+        <pose frame=''>9.30227 6.66458 0.74 0 -0 1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='pc_station'>
+          <pose frame=''>9.30227 6.66458 0.74 0 -0 1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='short_cabinet'>
         <pose frame=''>3.54443 3.12663 0 0 0 -1.57</pose>
         <scale>1 1 1</scale>
@@ -365,6 +425,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='swivel_chair_10'>
+        <pose frame=''>5.84118 7.41349 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='swivel_chair'>
+          <pose frame=''>5.84118 7.41349 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='swivel_chair_2'>
         <pose frame=''>3.62265 1.03682 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -396,10 +466,10 @@
         </link>
       </model>
       <model name='swivel_chair_5'>
-        <pose frame=''>6.47725 7.20292 0 0 -0 0</pose>
+        <pose frame=''>6.5343 7.20292 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='swivel_chair'>
-          <pose frame=''>6.47725 7.20292 0 0 -0 0</pose>
+          <pose frame=''>6.5343 7.20292 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -535,6 +605,146 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='tv'>
+        <pose frame=''>5.933 5.83591 0.75 0 -0 3.14</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>5.933 5.83591 0.75 0 -0 3.14</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone'>
+        <pose frame=''>6.62298 5.8313 0.75 0 -0 3.14</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>6.62298 5.8313 0.75 0 -0 3.14</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_0'>
+        <pose frame=''>8.33567 5.98933 0.74 0 -0 3.14</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>8.33567 5.98933 0.74 0 -0 3.14</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_0_clone'>
+        <pose frame=''>8.87476 6.62666 0.74 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>8.87476 6.62666 0.74 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_0_clone_clone'>
+        <pose frame=''>8.23778 6.63589 0.74 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>8.23778 6.63589 0.74 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_1'>
+        <pose frame=''>8.99426 5.97572 0.74 0 -0 3.14</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>8.99426 5.97572 0.74 0 -0 3.14</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2'>
+        <pose frame=''>4.52994 3.76906 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>4.52994 3.76906 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone'>
+        <pose frame=''>3.90483 3.76972 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>3.90483 3.76972 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_0'>
+        <pose frame=''>2.769 0.233764 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>2.769 0.233764 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_1'>
+        <pose frame=''>3.42924 0.223781 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>3.42924 0.223781 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_2'>
+        <pose frame=''>1.93855 0.227855 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>1.93855 0.227855 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_3'>
+        <pose frame=''>1.28231 0.227836 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>1.28231 0.227836 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_clone'>
+        <pose frame=''>6.59426 6.41633 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>6.59426 6.41633 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='tv_clone_2_clone_clone_0'>
+        <pose frame=''>5.94755 6.4278 0.75 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='tv'>
+          <pose frame=''>5.94755 6.4278 0.75 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='velma_alcove'>
         <pose frame=''>0.883781 2.46838 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -571,7 +781,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>7.60324 6.62413 10.3687 0 1.3498 1.7227</pose>
+        <pose frame=''>11.2842 1.13044 9.44074 0 0.949796 2.56828</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2667,6 +2877,1105 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>7.43092 7.88446 0 0 -0 0</pose>
+    </model>
+    <model name='swivel_chair_10'>
+      <static>1</static>
+      <link name='swivel_chair'>
+        <collision name='swivel_chair'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://swivel_chair/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='swivel_chair_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://swivel_chair/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://swivel_chair/materials/scripts</uri>
+              <uri>model://swivel_chair/materials/textures</uri>
+              <name>Swivel_chair/Fabric</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>5.79975 7.46448 0 0 -0 0</pose>
+    </model>
+    <model name='pc_station'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>5.07478 4.79322 0 0 -0 0</pose>
+    </model>
+    <model name='tv'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>4.9354 5.63295 0 0 -0 0</pose>
+    </model>
+    <model name='tv_clone'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>6.62298 5.8313 0.75 0 -0 3.14</pose>
+    </model>
+    <model name='tv_clone_0'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>8.33567 5.98933 0.75 0 -0 3.14</pose>
+    </model>
+    <model name='tv_clone_1'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>8.99426 5.97572 0.75 0 -0 3.14</pose>
+    </model>
+    <model name='tv_clone_2'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>4.52994 3.76906 0.75 0 -0 3.14</pose>
+    </model>
+    <model name='tv_clone_2_clone'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>3.78929 3.79042 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_0'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>2.769 0.233764 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_1'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>3.42924 0.223781 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_2'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>1.93855 0.227855 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_3'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>1.28231 0.227836 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_0_clone'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>8.87476 6.62666 0.74 0 -0 3.14</pose>
+    </model>
+    <model name='tv_clone_0_clone_clone'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>8.23778 6.63589 0.74 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_clone'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>6.59426 6.41633 0.75 0 -0 0</pose>
+    </model>
+    <model name='tv_clone_2_clone_clone_0'>
+      <static>1</static>
+      <link name='tv'>
+        <collision name='tv_upper'>
+          <pose frame=''>0 0 0.26 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.582 0.032 0.28</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='tv_lower'>
+          <pose frame=''>0 0 0.06 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.58 0.16 0.12</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tv_mesh'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://tv/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>5.94755 6.4278 0.75 0 -0 0</pose>
+    </model>
+    <model name='pc_station_clone'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>5.46972 6.54051 0.75 0 0 -1.57</pose>
+    </model>
+    <model name='pc_station_clone_clone'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>3.42431 3.80543 0.75 0 -0 1.57</pose>
+    </model>
+    <model name='pc_station_clone_clone_0'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>3.94534 0.348295 0.75 0 -0 1.57</pose>
+    </model>
+    <model name='pc_station_clone_clone_1'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.77767 0.31381 0.75 0 -0 1.57</pose>
+    </model>
+    <model name='pc_station_clone_clone_2'>
+      <static>1</static>
+      <link name='pc_station'>
+        <collision name='pc_station'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='pc_station'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://pc_station/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>9.30227 6.66458 0.75 0 -0 1.57</pose>
     </model>
   </world>
 </sdf>
