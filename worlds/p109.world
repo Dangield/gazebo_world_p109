@@ -121,10 +121,10 @@
       <pose frame=''>-2.29622 -3.99285 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1420 769000000</sim_time>
-      <real_time>7 145183337</real_time>
-      <wall_time>1666108269 878791793</wall_time>
-      <iterations>7120</iterations>
+      <sim_time>1760 775000000</sim_time>
+      <real_time>582 416156741</real_time>
+      <wall_time>1666603964 256185848</wall_time>
+      <iterations>340006</iterations>
       <model name='armchair'>
         <pose frame=''>4.94972 2.84408 0 0 0 -1.57</pose>
         <scale>1 1 1</scale>
@@ -260,6 +260,26 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='high_cabinet'>
+        <pose frame=''>5.28103 8.59448 0 0 0 -1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='high_cabinet'>
+          <pose frame=''>5.28103 8.59448 0 0 0 -1.57</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='high_cabinet_0'>
+        <pose frame=''>6.49567 8.59378 0 0 0 -1.57</pose>
+        <scale>1 1 1</scale>
+        <link name='high_cabinet'>
+          <pose frame=''>6.49567 8.59378 0 0 0 -1.57</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -541,7 +561,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>9.13269 -1.86431 8.38066 0 0.953796 2.25871</pose>
+        <pose frame=''>6.82709 3.34862 12.3614 0 1.2658 1.61471</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2520,6 +2540,85 @@
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>6.31555 4.31668 0 0 -0 0</pose>
+    </model>
+    <audio>
+      <device>default</device>
+    </audio>
+    <model name='high_cabinet'>
+      <static>1</static>
+      <link name='high_cabinet'>
+        <collision name='high_cabinet'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://high_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='high_cabinet'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://high_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>4.14549 7.77083 0 0 -0 0</pose>
+    </model>
+    <model name='high_cabinet_0'>
+      <static>1</static>
+      <link name='high_cabinet'>
+        <collision name='high_cabinet'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://high_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='high_cabinet'>
+          <cast_shadows>1</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>model://high_cabinet/meshes/model.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>6.92921 8.19776 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
