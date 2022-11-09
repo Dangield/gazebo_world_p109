@@ -19,9 +19,7 @@ Contains 3d models in ".sdf" format readable by Gazebo along with meshes with fi
 
 Contains single python script used for automation of creating ".sdf" models for Gazebo from ".dae" meshes exported from Blender. The models will also have their colors fixed by adding an ambient tag.
 
-:warning: 
-
-| WARNING: This executable is meant to be run while in "scripts/" directory. Running it will replace all existing models that originate from Blender files included in this package. DO NOT remove the "models/" directory by yourself, the script will do all the work. |
+| :warning: WARNING :warning: : This executable is meant to be run while in "scripts/" directory. Running it will replace all existing models that originate from Blender files included in this package. DO NOT remove the "models/" directory by yourself, the script will do all the work. |
 | --- |
 
 ### worlds/
