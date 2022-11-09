@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<sdf version="1.0">
+<sdf version="1.5">
   <model name="pc_station">
     <static>true</static>
     <link name="pc_station">

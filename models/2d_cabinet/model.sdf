@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<sdf version="1.0">
+<sdf version="1.5">
   <model name="2d_cabinet">
     <static>true</static>
     <link name="2d_cabinet">

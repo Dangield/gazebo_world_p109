@@ -51,7 +51,7 @@ if __name__ == '__main__':
         remove(sdf_file)
       f = open(sdf_file, 'w')
       f.write('<?xml version="1.0" ?>' + '\n')
-      f.write('<sdf version="1.0">' + '\n')
+      f.write('<sdf version="1.5">' + '\n')
       f.write('  <model name="' + model_name + '">' + '\n')
       f.write('    <static>true</static>' + '\n')
       f.write('    <link name="' + model_name + '">' + '\n')
